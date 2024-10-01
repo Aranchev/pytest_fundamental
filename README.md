@@ -6,4 +6,5 @@ With the virtual environment activated, install the dependencies listed in the r
 
 pip install -r requirements.txt
 
-![Untitled](https://github.com/user-attachments/assets/9037096e-bb76-4eae-9f08-fab2198c6d68)
+![Untitled](https://github.com/user-attachments/assets/8632d2ce-455a-4964-bfaa-4f5b86f4a3cc)
+
