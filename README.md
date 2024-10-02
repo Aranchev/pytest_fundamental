@@ -33,3 +33,5 @@ pip install -r requirements.txt
 
 📖 [Pytest](https://docs.pytest.org/en/stable/getting-started.html)
 
+- [Parametrizing tests](https://docs.pytest.org/en/stable/how-to/parametrize.html)
+
