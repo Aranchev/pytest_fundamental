@@ -1,3 +1,7 @@
+📖 - official documentation
+
+---
+
 B to toggle Bookmarks, ClearBookmarks [name] to delete, Bookmark [name] to create
 
 ---
@@ -16,17 +20,15 @@ pip install -r requirements.txt
 
 ---
 
-[Defining Functions (python doc)](https://docs.python.org/3/tutorial/controlflow.html#defining-functions)
+📖 [Defining Functions](https://docs.python.org/3/tutorial/controlflow.html#defining-functions)
 
-From python doc:
+📖 [More on Defining Functions](https://docs.python.org/3/tutorial/controlflow.html#more-on-defining-functions)
 
-- [More on Defining Functions](https://docs.python.org/3/tutorial/controlflow.html#more-on-defining-functions)
+📖 [return](https://docs.python.org/3/reference/simple_stmts.html#the-return-statement)
 
-- [return](https://docs.python.org/3/reference/simple_stmts.html#the-return-statement)
+📖 [assert](https://docs.python.org/3/reference/simple_stmts.html#the-assert-statement)
 
-- [assert](https://docs.python.org/3/reference/simple_stmts.html#the-assert-statement)
+📖 [raise](https://docs.python.org/3/reference/simple_stmts.html#the-raise-statement)
 
-- [raise](https://docs.python.org/3/reference/simple_stmts.html#the-raise-statement)
-
-[Pytest doc](https://docs.pytest.org/en/stable/getting-started.html)
+📖 [Pytest](https://docs.pytest.org/en/stable/getting-started.html)
 
