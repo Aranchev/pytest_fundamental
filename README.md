@@ -18,13 +18,15 @@ pip install -r requirements.txt
 
 [Defining Functions (python doc)](https://docs.python.org/3/tutorial/controlflow.html#defining-functions)
 
-[More on Defining Functions (python doc)](https://docs.python.org/3/tutorial/controlflow.html#more-on-defining-functions)
+From python doc:
 
-[return (python doc)](https://docs.python.org/3/reference/simple_stmts.html#the-return-statement)
+- [More on Defining Functions](https://docs.python.org/3/tutorial/controlflow.html#more-on-defining-functions)
 
-[assert (python doc)](https://docs.python.org/3/reference/simple_stmts.html#the-assert-statement)
+- [return](https://docs.python.org/3/reference/simple_stmts.html#the-return-statement)
 
-[raise (python doc)](https://docs.python.org/3/reference/simple_stmts.html#the-raise-statement)
+- [assert](https://docs.python.org/3/reference/simple_stmts.html#the-assert-statement)
+
+- [raise](https://docs.python.org/3/reference/simple_stmts.html#the-raise-statement)
 
 [Pytest doc](https://docs.pytest.org/en/stable/getting-started.html)
 
