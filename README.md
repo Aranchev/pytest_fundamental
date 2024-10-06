@@ -6,8 +6,8 @@ This is a project that applies TDD to basic python list problems.
 
 ---
 
----
 itertools permutation + pop()
+
 ---
 
 B to toggle Bookmarks, ClearBookmarks [name] to delete, Bookmark [name] to create
