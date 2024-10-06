@@ -2,7 +2,7 @@
 
 ---
 
-This is a project that applies TDD to basic python list problems.
+This is a project that applies TDD to basic python list problems. (for now)
 
 ---
 
