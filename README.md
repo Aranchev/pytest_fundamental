@@ -1,6 +1,7 @@
 **check how the assertion of two returns is possible**
 
 https://chatgpt.com/c/6704d9ab-09c8-800e-b170-ec9e212f750a
+
 https://chatgpt.com/c/67051add-4374-800e-a161-69ddbfb08c74
 
 ---
