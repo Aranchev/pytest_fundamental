@@ -1,3 +1,9 @@
+**check how the assertion of two returns is possible**
+
+https://chatgpt.com/c/6704d9ab-09c8-800e-b170-ec9e212f750a
+
+---
+
 📖 - official documentation
 
 ---
