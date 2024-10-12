@@ -7,11 +7,15 @@ def test_list_transformation():
     
 def test_format_txt():
     b = _06_list_man.format_txt("exchange 2")
+    c = _06_list_man.format_txt("exchange 10")
     assert b == ['exchange', '2']
+    assert c == ['exchange', '10']
 
 def test_exchange():
     a = _06_list_man.exchange([1, 3, 5, 7, 9], ["exchange", "1"])
+    b = _06_list_man.exchange([1, 10, 100, 100], ['exchange', '10'])
     assert a == [5, 7, 9, 1, 3] 
+    assert b == 'Invalid Index' 
 
 def test_max():
     a = _06_list_man.max_odd([5, 7, 9, 1, 3])
@@ -19,9 +23,11 @@ def test_max():
 
 def test_max_even():
     a = _06_list_man.max_even([1, 2, 3, 4, 5])
-    b = _06_list_man.max_even([1, 1, 0, 1, 1])
+    b = _06_list_man.max_even([1, 10, 100, 1000])
     assert a == 3
-    assert b == 2
+    assert b == 3
+
+
 
 def test_min_even():
     a = _06_list_man.min_even([5, 7, 9, 1, 3])
@@ -32,3 +38,13 @@ def test_min_even():
 def test_min_odd():
     a = _06_list_man.min_odd([4, 3, 1, 1])
     assert a == 3 
+
+def test_first_even():
+    a = _06_list_man.first_even([1, 8, 2, 3], 2)
+    b = _06_list_man.first_even([1, 10, 100, 1000], 5)
+    assert a == [8, 2]
+
+
+def test_first_odd():
+    a = _06_list_man.first_odd([5, 7, 9, 1, 3], 2)
+    assert a == [5, 7]

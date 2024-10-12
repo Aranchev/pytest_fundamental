@@ -7,7 +7,9 @@ def format_txt(b):
     return b
 
 def exchange(a, b):
-    try: 
+    try:
+        if len(a) < int(b[1]) + 1:
+            raise IndexError()
         c = a[:int(b[1]) + 1]
         d = a[int(b[1]) + 1:]
         e = d + c
@@ -62,30 +64,59 @@ def min_odd(a):
     else:
         return "No matches" 
 
-def first_even(a):
-    pass
+def first_even(a, b):
+    c = []
+    d = a
+    for i in range(b):
+        for x, y in enumerate(d):
+            if y % 2 == 0:
+                c += [y]
+                d.pop(x)
+                break
+    if b > len(a):
+        return 'Invalid count'
+    else:
+        return c
+
+def first_odd(a, b):
+    c = []
+    d = a
+    for i in range(b):
+        for x, y in enumerate(d):
+            if y % 2 != 0:
+                c += [y]
+                d.pop(x)
+                break
+    if b > len(a):
+        return 'Invalid count'
+    else:
+        return c
 
 
 
 if __name__ == '__main__':
     a = list_transformation(input())
     b = format_txt(input())
-
     while b[0] != 'end':
         if b[0] == 'exchange':
-            c = exchange(a, b) 
+            a = exchange(a, b) 
         elif b[0] == 'max':
             if b[1] == 'odd':
-                print(max_odd(c))
+                print(max_odd(a))
             elif b[1] == 'even':
-                print(max_even(c))
+                print(max_even(a))
         elif b[0] == 'min':
             if b[1] == 'even':
-                print(min_even(c))
+                print(min_even(a))
             elif b[1] == 'odd':
-                print(min_odd(c))
+                print(min_odd(a))
         elif b[0] == 'first':
-            pass
+            if b[2] == 'even':
+                print(first_even(a, int(b[1])))
+            elif b[2] == 'odd':
+                print(first_odd(a, int(b[1])))
 
         b = format_txt(input())
+
+#! for some reason the second sequence of inputs gives me error on 'max even'
 
