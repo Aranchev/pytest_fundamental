@@ -1,33 +1,8 @@
-📖 - official documentation
-
----
-
-This is a project that applies TDD to basic python list problems. (for now)
-
----
-
-itertools permutation + pop()
-
----
-
-B to toggle Bookmarks, ClearBookmarks [name] to delete, Bookmark [name] to create
-
----
-
-After installing the new package, you need to update the requirements.txt file. The easiest way to do this is by running:
-
-pip freeze > requirements.txt
-
-With the virtual environment activated, install the dependencies listed in the requirements.txt file:
-
-pip install -r requirements.txt
-
----
-**Beginning directory tree:**
+# Beginning directory tree:
 
 <img src="https://github.com/user-attachments/assets/8632d2ce-455a-4964-bfaa-4f5b86f4a3cc" alt="Untitled" width="500"/>
 
----
+# Resources
 
 📖 [Defining Functions](https://docs.python.org/3/tutorial/controlflow.html#defining-functions)
 
@@ -42,4 +17,3 @@ pip install -r requirements.txt
 📖 [Pytest](https://docs.pytest.org/en/stable/getting-started.html)
 
 - [Parametrizing tests](https://docs.pytest.org/en/stable/how-to/parametrize.html)
-
