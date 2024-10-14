@@ -17,7 +17,7 @@ def test_exchange():
     assert a == [5, 7, 9, 1, 3] 
     assert b == 'Invalid Index' 
 
-def test_max():
+def test_max_odd():
     a = _06_list_man.max_odd([5, 7, 9, 1, 3])
     assert a == 2
 
@@ -27,8 +27,6 @@ def test_max_even():
     assert a == 3
     assert b == 3
 
-
-
 def test_min_even():
     a = _06_list_man.min_even([5, 7, 9, 1, 3])
     b = _06_list_man.min_even([1, 1, 0, 0, 1])
@@ -37,7 +35,9 @@ def test_min_even():
 
 def test_min_odd():
     a = _06_list_man.min_odd([4, 3, 1, 1])
+    b = _06_list_man.min_odd([1, 10, 100, 1000])
     assert a == 3 
+    assert b == 0
 
 def test_first_even():
     a = _06_list_man.first_even([1, 8, 2, 3], 2)
