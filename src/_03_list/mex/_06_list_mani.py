@@ -15,7 +15,7 @@ def exchange(a, b):
         e = d + c
         return e
     except IndexError:
-        return 'Invalid Index'
+        return 'Invalid index'
 
 #! --
 
@@ -105,51 +105,46 @@ def first_even(a, b):
 
 #! --
 
-
 def last_odd(a, b):
+    c = []
+    e = []
     if b > len(a):
         return 'Invalid count'
     else:
-        c = []
         d = a.copy()
-        for i in d:
-            if i % 2 != 0:
-                c += [i]
-        
-        
+        for i in range(b):
+            for x, y in enumerate(reversed(d)):
+                if y % 2 != 0:
+                    c += [y]
+                    d.remove(y)
+                    break
+        for i in reversed(c):
+            e += [i]
+    return e
 
-
-
-
-
-#
-#def last_odd(a, b):
-#    d = a.copy()
-#    while len(d) >= 1:
-#        c = []
-#        for i in range(b):
-#            for x, y in enumerate(d):
-#                if y % 2 != 0:
-#                    c += [y]
-#                    d.pop(x)
-#                    d = d[x:]
-#                    break
-#        if b > 0:
-#            break
-#        if c == []:
-#            break
-#    if b > len(a):
-#        return 'Invalid count'
-#    else:
-#        return c
-
+def last_even(a, b):
+    c = []
+    e = []
+    if b > len(a):
+        return 'Invalid count'
+    else:
+        d = a.copy()
+        for i in range(b):
+            for x, y in enumerate(reversed(d)):
+                if y % 2 == 0:
+                    c += [y]
+                    d.remove(y)
+                    break
+        for i in reversed(c):
+            e += [i]
+    return e
 
 if __name__ == '__main__':
     a = list_transformation(input())
     b = format_txt(input())
-    while b != 'end':
+    while b[0] != 'end':
         if b[0] == 'exchange':
-            if exchange(a, b) != 'Invalid Index':
+            if exchange(a, b) != 'Invalid index':
                 a = exchange(a, b)
             else:
                 print(exchange(a, b))
@@ -173,7 +168,15 @@ if __name__ == '__main__':
             elif b[2] == 'even':
                 d = first_even(a, int(b[1]))
                 print(d)
+        
+        elif b[0] == 'last':
+            if b[2] == 'odd':
+                d = last_odd(a, int(b[1]))
+                print(d)
+            if b[2] == 'even':
+                d = last_even(a, int(b[1]))
+                print(d)
 
-        print(a)
         b = format_txt(input())
+    print(a)
 

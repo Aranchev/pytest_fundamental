@@ -69,24 +69,15 @@ def test_first_even():
     assert a == [8, 2]
     assert b == 'Invalid count'
 
-#def test_last_odd():
-#    a = _06_list_mani.last_odd([1, 8, 2, 3], 2)
-#    b = _06_list_mani.last_odd([1, 2], 3)
-#    c = _06_list_mani.last_odd([2, 2, 2], 2)
-#    d = _06_list_mani.last_odd([2, 1, 3, 2, 4, 5, 7], 2)
-#    e = _06_list_mani.last_odd([2, 1, 2, 2], 2)
-#
-#    assert a == [1, 3]
-#    assert b == 'Invalid count'
-#    assert c == []
-#    assert d == [5, 7]
-#    assert e == [1]
-
 def test_last_odd():
-    a = _06_list_mani.last_odd([1, 3, 4, 6], 2)
-    b = _06_list_mani.last_odd([1, 3, 4, 6], 6)
-    c = _06_list_mani.last_odd([1, 3, 4, 6, 5, 7], 2)
-    
+    a = _06_list_mani.last_odd([1, 8, 2, 3], 2)
+    b = _06_list_mani.last_odd([2, 2, 2, 2], 2) 
+    c = _06_list_mani.last_odd([1, 2, 3, 4, 5, 6], 2)
+    d = _06_list_mani.last_odd([1, 2, 3], 4)
+
     assert a == [1, 3]
-    assert b == 'Invalid count' 
-    assert c == [5, 7]
+    assert b == []
+    assert c == [3, 5]
+    assert d == 'Invalid count'
+
+
