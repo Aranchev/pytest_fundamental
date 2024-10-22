@@ -4,7 +4,7 @@
 
 # Notes
 
-if you only this in the `test` script:
+if you only see this in the `test` script:
 
 ```python
 import pytest
