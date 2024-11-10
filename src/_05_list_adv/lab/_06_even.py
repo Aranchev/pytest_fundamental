@@ -10,8 +10,8 @@ if __name__ == '__main__':
     a = input()
     print(da(a))
 
-```
-Softuni
+'''
+Softuni:
 # Convert the list of strings into a list of numbers
 number_list = list(map(int, input().split(", ")))
 # Find all the even numbers' indices
@@ -22,4 +22,4 @@ found_indices_or_no = map(
 even_indices = list(filter(lambda a: a != 'no', found_indices_or_no))
 print(even_indices)
 
-```
+'''
