@@ -15,6 +15,13 @@ def test_localize_dot():
 ])
     assert a == [0, 0]
 
+    b = _05_dots.localize_dot([
+['-', '-', '-', '-', '-', '-'], 
+['-', '-', '-', '-', '-', '-'], 
+['-', '-', '-', '-', '-', '-'], 
+['-', '-', '-', '-', '-', '-'] 
+])
+    assert b == None 
 
 '''
 2. availability of the initial point's sides  
