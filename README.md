@@ -12,5 +12,3 @@ import pytest
 from dir import file
 ```
 It is because the `src` was probably too simple, and there was not much to be tested.
-
-**NOTE:** I stopped creating test scripts for the latter files if they are too simple and don't require testing.
