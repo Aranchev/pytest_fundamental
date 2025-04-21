@@ -5,7 +5,7 @@ class Party:
 party = Party()
 line = input()
 
-while line != "End":
+while line != "End:
     party.people.append(line)
     line = input()
 print(f"Going: {', '.join(party.people)}")
