@@ -11,9 +11,6 @@ class Email:
     def get_info(self):
         return f'{self.sender} says to {self.receiver}: {self.content}. Sent: {self.is_sent}'
 
-
-
-
 if __name__ == '__main__':
     a = input().split(' ')
 
