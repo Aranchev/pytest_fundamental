@@ -8,4 +8,3 @@ def test_add_animals():
    zoo.add_animals('fish', 'salmon')
    assert 'lion' in zoo.mammals
    assert 'salmon' in zoo.fishes
-
