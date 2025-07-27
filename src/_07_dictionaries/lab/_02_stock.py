@@ -19,6 +19,13 @@ for i in products:
     else:
         print(f'Sorry, we dont have {i}')
 
+# alternative:
+# for item in products:
+#     if item in random_dict:
+#         print(f"We have {random_dict[item]} of {item} left")
+#     else:
+#         print(f"Sorry, we don't have {item}")
+
 
 
 
