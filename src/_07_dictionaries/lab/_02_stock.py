@@ -11,5 +11,14 @@ for i in range(0, len(list), 2):
 # to dict in 7 line
 # you can also use 'thisdict.update({"color": "red"})'
 
+products = input().split()
 
-print(dict)
+for i in products:
+    if i in dict.keys():
+        print(f'We have {dict.get(i)} of {i} left')
+    else:
+        print(f'Sorry, we dont have {i}')
+
+
+
+
