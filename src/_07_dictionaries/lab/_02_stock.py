@@ -17,7 +17,7 @@ for i in products:
     if i in dict.keys():
         print(f'We have {dict.get(i)} of {i} left')
     else:
-        print(f'Sorry, we dont have {i}')
+        print(f"Sorry, we don't have {i}")
 
 # alternative:
 # for item in products:
