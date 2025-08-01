@@ -1,4 +1,5 @@
 dictionary = {'bread': 4, 'cheese': 2, 'ham': 1}
 
-print(len(dictionary))
+for i, x in dictionary.items():
+    print(i, x)
 
