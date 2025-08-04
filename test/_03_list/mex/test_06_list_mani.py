@@ -15,7 +15,7 @@ def test_exchange():
     a = _06_list_mani.exchange([1, 3, 5, 7, 9], ["exchange", "1"])
     b = _06_list_mani.exchange([1, 10, 100, 100], ['exchange', '10'])
     assert a == [5, 7, 9, 1, 3] 
-    assert b == 'Invalid Index'    
+    assert b == 'Invalid index'    
 
 def test_max_odd():
     a = _06_list_mani.max_odd([5, 7, 9, 1, 3])

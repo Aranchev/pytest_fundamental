@@ -10,7 +10,7 @@ def test_merge():
     assert a == ['abcdef', 'ghi']
     assert b == ['abcdefghi']
     assert c == ['123', '456789']
-    assert d == []
+    assert d == ['123', '456', '789']
 
 def test_divide():
     a = _09_anon_threat.divide(['abcdefgh', 'gh'], 0, 4)

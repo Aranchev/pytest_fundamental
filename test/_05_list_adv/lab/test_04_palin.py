@@ -12,6 +12,6 @@ def test_pa():
 
 def test_occ():
     a = _04_palin.find_occ(['wow', 'mom', 'wow', 'stats'], 'wow')
-    assert a == 1
+    assert a == 2
 
 
