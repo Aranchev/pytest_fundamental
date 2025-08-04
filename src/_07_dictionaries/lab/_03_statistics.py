@@ -1,4 +1,4 @@
-dictionary = {}
+dictionary = {} 
 pair = input().split(': ')
 b = 0
 
