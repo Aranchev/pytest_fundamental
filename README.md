@@ -4,5 +4,6 @@
 
 # notes
 
-setting and alias to `alias mypytest='PYTHONPATH=/home/aranchev/pytest_fundamental pytest'` in `.bashrc`: works because it sets PYTHONPATH to /home/aranchev/pytest_fundamental when running pytest, so Python can find and import your test files and modules correctly
+setting and alias to `alias mypytest='PYTHONPATH=/home/aranchev/pytest_fundamental pytest'` in `.bashrc`: works because it sets `PYTHONPATH` to `/home/aranchev/pytest_fundamental` when running `pytest`, so Python can find and import your test files and modules correctly
+
 
