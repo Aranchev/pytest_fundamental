@@ -1,6 +1,13 @@
+inp = input().split(':')
 students = {}
 
-students['Peter'] = {}
-students['Peter'][123] = 'programming fundamentals'
-
+while len(inp) > 1:
+    students[inp[0]] = {}
+    students[inp[0]][int(inp[1])] = inp[2]
+    inp = input().split(':')
 print(students)
+
+
+
+
+
