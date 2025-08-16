@@ -1,5 +1,3 @@
-# capturing stdout/stderr output
-
 def cor_course(course, my_dict):
     list_of_values = ''
     a = ' '.join(course.split('_'))
